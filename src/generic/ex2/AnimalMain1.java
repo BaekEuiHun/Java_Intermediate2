@@ -10,7 +10,8 @@ public class AnimalMain1 {
         Animal animal = new Animal("동물", 0);
         Dog dog = new Dog("멍멍이", 100);
         Cat cat = new Cat("냐옹이", 50);
-        
+
+
         Box<Dog> dogBox = new Box<>();
         dogBox.set(dog);
         Dog findDog = dogBox.get();
