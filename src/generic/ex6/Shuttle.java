@@ -13,4 +13,8 @@ public class Shuttle<T extends BioUnit> {
     public void showInfo() {
         System.out.println("이름 : " + unit.getName());
     }
+
+    public T out() {
+        return unit;
+    }
 }
