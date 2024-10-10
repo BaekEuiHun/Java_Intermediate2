@@ -13,7 +13,7 @@ public class BatchProcessor {
             list.add(0, i); //앞에 추가
         }
         long endTime = System.currentTimeMillis();
-        System.out.println(size + (endTime - startTime) + "ms");
+        System.out.println("크기 : " + size + ", 계산 시간 : " + (endTime - startTime) + "ms");
     }
 }
 
