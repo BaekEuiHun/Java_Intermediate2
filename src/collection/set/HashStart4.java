@@ -31,10 +31,12 @@ public class HashStart4 {
         System.out.println(result);
     }
 
+
     private static void add(Integer[] inputArray, int value) {
         int hashIndex = hashIndex(value);
         inputArray[hashIndex] = value;
     }
+
 
     static int hashIndex(int value) {
         return value % CAPACITY;
