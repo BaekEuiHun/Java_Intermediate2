@@ -10,9 +10,7 @@ public class UniqueNamesTest3 {
 
         Integer[] inputArr = {30, 20, 20, 10, 10};
 
-        List<Integer> list = List.of(inputArr);
-
-        Set<Integer> set = new TreeSet<>(list);
+        Set<Integer> set = new TreeSet<>(List.of(inputArr));
 
 
         for (Integer s : set) {
