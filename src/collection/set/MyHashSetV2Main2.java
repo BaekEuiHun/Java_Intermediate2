@@ -1,0 +1,30 @@
+package collection.set;
+
+import collection.set.member.Member;
+import collection.set.member.MyHashSetV2;
+
+public class MyHashSetV2Main2 {
+    public static void main(String[] args) {
+
+        MyHashSetV2 set = new MyHashSetV2();
+        Member hi = new Member("hi");
+        Member jpa = new Member("JPA");
+        Member java = new Member("JAVA");
+        Member spring = new Member("SPRING");
+
+        System.out.println(hi.hashCode());
+        System.out.println(jpa.hashCode());
+        System.out.println(java.hashCode());
+        System.out.println(spring.hashCode());
+
+        set.add(hi);
+        set.add(jpa);
+        set.add(java);
+        set.add(spring);
+        System.out.println(set);
+
+        Member searchValue = new Member("JPA");
+        boolean result = set.contains(searchValue);
+        System.out.println("result = " + result);
+    }
+}
