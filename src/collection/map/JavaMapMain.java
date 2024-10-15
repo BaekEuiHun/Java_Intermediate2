@@ -20,7 +20,7 @@ public class JavaMapMain {
         Iterator<String> iterator = keySet.iterator();
         while (iterator.hasNext()) {
             String key = iterator.next();
-            System.out.print(key + "=" + map.get(key) + " ");
+            System.out.print (key + "=" + map.get(key) + " ");
         }
         System.out.println();
 
