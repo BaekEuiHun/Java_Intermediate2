@@ -1,4 +1,4 @@
-package generic.iterate;
+package collection.iterate;
 
 import java.util.*;
 
