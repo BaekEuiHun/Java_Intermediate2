@@ -1,6 +1,7 @@
 package generic.ex4;
 
 public class GenericMethod {
+    
     public static Object object(Object obj) {
         System.out.println("Object print: " + obj);
         return obj;
