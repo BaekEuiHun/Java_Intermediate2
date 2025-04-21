@@ -4,6 +4,7 @@ import java.util.*;
 
 public class JavaMapMain {
     public static void main(String[] args) {
+        
         run(new HashMap<>());
         run(new LinkedHashMap<>());
         run(new TreeMap<>());
